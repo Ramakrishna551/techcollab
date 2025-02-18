@@ -1,0 +1,72 @@
+/* universel selector */
+*{
+    margin: 0;
+    padding: 0;
+    /*problem with table and it's data check*/
+    /* box-sizing: border-box;  */
+}
+
+body{
+    position: relative;
+    height: 100vh;
+}
+
+/*HEADER  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+
+    height: 50px;
+}
+#right-nav-items{
+    display: flex;
+    gap: 10px;
+}
+/*MAIN  */
+main{
+    max-width: 1200px;
+    margin: auto;  
+
+     /*debugging*/
+    /* background-color: red; */
+}
+.sec{
+    height: 100%;
+}
+
+
+/*FOOTER */
+footer{
+    background-color: #0D1117;
+    color: #fff; /*don't write color names*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    
+    bottom: 0;
+
+    p {
+        padding: 10px 0px;
+        border-bottom: 2px solid green;
+        margin: 20px 0px;
+    }
+}
+
+#footer-data{
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 50px ;
+
+    li {
+    list-style: none;
+    }
+}

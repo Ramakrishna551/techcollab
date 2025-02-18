@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "firstname": "Siddu Ganesh",
+        "lastname": "Musa",
+        "dob": "2001-09-09",
+        "location": "Hyderabad, Telangana, India.",
+        "qualification": "B.Tech (Computer Science and Engineering)",
+        "github": "https://github.com/sidduganeshsid",
+        "headline": "proficient in building full stack web applications",
+        "description": "I'm CS Grad 2023",
+
+        "skills": "HTML, CSS, JavaScript, React.js, Node.js, MongoDB, Express.js, Java, SpringBoot",
+        "category": ["web", "mobile", "backend"],
+
+        "linkedin": "https://www.linkedin.com/in/sidduganesh",
+        "x": "https://x.com/SiD_Sidduganesh",
+
+        "portfolio": "https://tempportfolio-delta.vercel.app",
+
+        "hackerrank": "",
+        "codeforce": "",
+        "codechef": "",
+        "leetcode": "",
+        "geeksforgeeks": "",
+        
+        "other":[1,2,"sid"]
+    },
+    {
+        "id": 2,
+        "title": "Stripe Documentation",
+        "description": "Stripe Documentation provides comprehensive, developer-friendly guides and API references to integrate and manage Stripe's payment services with ease.",
+        "link": "https://docs.stripe.com/",
+        "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1728891924750/WdfqrjMlz.jpg?auto=format",
+        "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1728891598361/vllCimzAm.png?auto=format",
+        "category": "Payment",
+        "featured": true,
+        "x": "https://x.com/stripe",
+        "github": "https://github.com/stripe",
+        "linkedin": "https://www.linkedin.com/company/stripe/"
+    }
+]
