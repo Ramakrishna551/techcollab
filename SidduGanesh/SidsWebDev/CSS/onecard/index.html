@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: "Manrope", serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        .container {
+            /* background-color: red; */
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 15px;
+            align-items: center;
+        }
+
+        /* I need to create a container of 1200px how to do it ?
+        - max-width: 1200px;
+        - center: margin: auto;
+        */
+
+
+        .links {
+            display: none;
+
+        }
+
+        .logo img {
+            width: 70px;
+        }
+
+        /* do */
+        button {
+            padding: 15px 25px;
+            background-color: #1893f7;
+            color: #ffffff;
+            border: 0;
+            border-radius: 5px;
+        }
+
+        @media screen and (min-width: 650px) {
+            .links {
+                display: flex;
+                gap: 15px;
+                /* background-color: red; */
+                width: 70%;
+                justify-content: flex-end;
+            }
+        }
+
+        section {
+            /* background-color: red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            width: 1200px;
+        }
+
+        .right-section {
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+            /* background-color: blue; */
+        }
+
+        .left-section {
+            width: 50%;
+            /* background-color: green; */
+        }
+
+        video {
+
+            height: 500px;
+            /* width: 100%; */
+        }
+
+        .cobrands {
+            width: 300px;
+        }
+
+        .head-text {
+            font-size: 30px;
+        }
+
+        .subhead-text {
+            font-size: 50px;
+            color: #1893f7;
+        }
+
+        .short-intro {
+            padding-bottom: 20px;
+        }
+        #sec-1{
+            display: flex;
+   
+        }
+
+        #sec-2 {
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            width: 100vw;
+
+
+            >p {
+                font-size: 40px;
+            }
+
+            .charge-title {
+                font-size: 70px;
+                padding-bottom: 90px;
+                /* background: linear-gradient(#e66465, #9198e5); */
+                background: -webkit-linear-gradient(#eee, #333);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo"><img src="https://www.getonecard.app/images/OneCard_Logo_OneCard_Logo_1.png" alt=""></div>
+            <div class="links">
+                <p>Home</p>
+                <p>About</p>
+                <p>Offers</p>
+                <p>Blog</p>
+                <p>FAQ</p>
+                <p>Contact</p>
+            </div>
+            <div>
+                <button>Apply Now</button>
+            </div>
+        </nav>
+        <section id="sec-1">
+            <div class="left-section">
+                <p class="head-text">Say Hi to</p>
+                <p class="subhead-text">One Credit Card</p>
+                <p>Co-branded Card Issuers :</p>
+                <img src="https://www.getonecard.app/images/legal/Bank_Logos_All1.png" class="cobrands" alt="">
+                <p class="short-intro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, perspiciatis.
+                    Lorem ipsum dolor sit
+                    amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequuntur, accusantium!</p>
+                <div>
+                    <button>Apply Now</button>
+                </div>
+            </div>
+            <div class="right-section">
+                <video src="https://www.getonecard.app/images/homepage_14Nov24.mp4" autoplay loop></video>
+            </div>
+        </section>
+    </div>
+        <section id="sec-2">
+            <p class="charge-title">No Hidden Fees Ever.</p>
+
+            <p>No Joining Fees</p>
+            <p>No Annual Fees.</p>
+            <p>No Rewards</p>
+            <p>Redemption Fees.</p>
+        </section>
+    
+</body>
+
+</html>

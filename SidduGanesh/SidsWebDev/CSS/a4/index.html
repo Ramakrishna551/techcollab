@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A4 Size Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .a4-page {
+            width: 794px;  /* A4 width in pixels */
+            height: 1123px; /* A4 height in pixels */
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border: 1px solid #ddd;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        @media print {
+            body {
+                background: none;
+            }
+            .a4-page {
+                box-shadow: none;
+                border: none;
+                width: 21cm; /* A4 width in cm */
+                height: 29.7cm; /* A4 height in cm */
+                margin: 0;
+                padding: 20mm; /* Adjust for printable area */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="a4-page">
+        <h1>A4 Sized Page</h1>
+        <p>This is a sample content for an A4-sized page using HTML and CSS.</p>
+    </div>
+</body>
+</html>

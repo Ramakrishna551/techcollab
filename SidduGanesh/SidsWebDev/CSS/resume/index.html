@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A4 Size Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .a4-page {
+            width: 794px;
+            /* A4 width in pixels */
+            height: 1123px;
+            /* A4 height in pixels */
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border: 1px solid #ddd;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        @media print {
+            body {
+                background: none;
+            }
+
+            .a4-page {
+                box-shadow: none;
+                border: none;
+                width: 21cm;
+                /* A4 width in cm */
+                height: 29.7cm;
+                /* A4 height in cm */
+                margin: 0;
+                /* padding: 20mm; */
+                /* Adjust for printable area */
+            }
+        }
+        .contact-info{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            gap: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a4-page">
+        <header>
+            <h1>Siddu Ganesh Musa</h1>
+            <div class="contact-info">
+                <a href="tel:917330707182">73307 07182</a>
+                <a href="mailto:sidduganehengineer@gmail.com">sidduganehengineer@gmail.com</a>
+                <a href="https://www.linkedin.com/in/sidduganesh">linkedin.com/in/sidduganesh</a>
+            </div>
+            <hr>
+        </header>
+
+        <main>
+            <section id="education">
+                <h2>Education</h2>
+                <table border="1" cellpadding="10" cellspacing="0">
+                    <thead>
+                      <tr>
+                        <th>Qualification</th>
+                        <th>Institution</th>
+                        <th>Board/University</th>
+                        <th>CGPA/Percentage</th>
+                        <th>Duration</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>B.Tech (CSE)</td>
+                        <td>Ellenki Institute of Engineering & Technology</td>
+                        <td>JNTUH</td>
+                        <td>69.6%</td>
+                        <td>Aug 2019 - Sep 2023</td>
+                      </tr>
+                      <tr>
+                        <td>XII (MPC)</td>
+                        <td>Royal Junior College</td>
+                        <td>TSBIE</td>
+                        <td>64%</td>
+                        <td>Aug 2017 - Mar 2019</td>
+                      </tr>
+                      <tr>
+                        <td>X</td>
+                        <td>Vidya Vikas High School</td>
+                        <td>SSC</td>
+                        <td>93%</td>
+                        <td>Apr 2005 - Mar 2017</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <div style="display:flex;">
+                    <table cellpadding="10" cellspacing="0">
+                     <!-- <caption>Technical Skills</caption> -->
+                      <!-- <thead>
+                        <tr>
+                          <th>Category</th>
+                          <th>Skills</th>
+                        </tr>
+                      </thead> -->
+                      <tbody>
+                        <tr>
+                          <td>Programming Languages</td>
+                          
+                          <td>: Java, <strong> JavaScript</strong> </td>
+                        </tr>
+                        <tr>
+                          <td>Front-End</td>
+                          <td>: HTML, CSS, JavaScript, ReactJS</td>
+                        </tr>
+                        <tr>
+                          <td>Back-End</td>
+                          <td>: Spring Boot</td>
+                        </tr>
+                        <tr>
+                          <td>Databases</td>
+                          <td>: SQL (MySQL), NoSQL(MongoDB)</td>
+                        </tr>
+                        <tr>
+                          <td>DevOps & Cloud</td>
+                          <td>: AWS, Git, Linux, Docker, Ansible</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>To-do app</h3>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ullam doloribus eos eius non assumenda nobis temporibus aut. Qui facilis autem deleniti maxime harum earum.</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="Certifications">
+                <h2>Certifications</h2>
+                <dl>
+                    <dt>Full Stack Development with AI integrations @Aimerz.ai</dt>
+                    <dd>- MERN stack</dd>
+                </d1>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
